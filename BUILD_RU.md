@@ -109,3 +109,14 @@ nm -D stage/lib/arm64-v8a/libironchest.so | grep modentry
 cd ironchest-horizon
 cargo test --features stub        # логика сундуков, сериализация, апгрейды
 ```
+
+## 8. Файлы репозитория
+
+| Файл | Назначение |
+|---|---|
+| `BUILD_RU.md` | эта инструкция |
+| `build_hmod.sh` | скрипт сборки `.hmod` (NDK → ZIP) |
+| `manifest.json` | шаблон манифеста мода — скопируйте в корень архива, замените uuid на свои |
+| `pack_icon.json` | шаблон описания иконки/текстур; в сам архив кладите готовый `pack_icon.png` (128×128) |
+| `ironchest-horizon/` | Rust-crate мода (`src/lib.rs`, точка входа `modentry`) |
+| `dist/` | результат сборки (в `.gitignore`) |
