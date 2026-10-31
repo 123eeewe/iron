@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "IronChest Horizon",
+    "description": "Аналог мода IronChest: железные, золотые, алмазные, обсидиановые и кристальные сундуки (54-216 слотов) с крафтами-апгрейдами и сохранением содержимого.",
+    "uuid": "7b7a3f2e-0000-4a1b-9c2d-ironchest001",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7b7a3f2e-1111-4a1b-9c2d-ironchest002",
+      "version": "1.0.0",
+      "description": "Логика мода (Rust, точка входа modentry)",
+      "platforms": ["android"],
+      "entry": "lib/arm64-v8a/libironchest.so"
+    }
+  ],
+  "dependencies": {},
+  "addon_type": "mod",
+  "mod": {
+    "library": "libironchest.so",
+    "entry_point": "modentry",
+    "abi_filters": ["arm64-v8a", "armeabi-v7a"],
+    "api_level_min": 21,
+    "save_path": "data/contents.dat",
+    "supports_modstudio": true
+  }
+}
