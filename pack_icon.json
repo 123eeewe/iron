@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "texture_pack": {
+    "name": "IronChest Horizon — иконка и текстуры",
+    "description": "Иконка мода и текстуры сундуков.",
+    "pack_icon": "pack_icon.png",
+    "textures": {
+      "iron_chest_front": "textures/items/iron_chest.png",
+      "gold_chest_front": "textures/items/gold_chest.png",
+      "diamond_chest_front": "textures/items/diamond_chest.png",
+      "crystal_chest_front": "textures/items/crystal_chest.png",
+      "obsidian_chest_front": "textures/items/obsidian_chest.png"
+    }
+  },
+  "icon": {
+    "size": [128, 128],
+    "background": "#3a3f4b",
+    "foreground": "#c0c5ce",
+    "glyph": "chest",
+    "accent": "#d8b13c",
+    "comment": "Поле 'comment' — заметка для дизайнера; рантайм его игнорирует."
+  }
+}

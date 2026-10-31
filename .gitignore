@@ -1,1 +1,10 @@
 target/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
